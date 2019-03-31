@@ -1,0 +1,23 @@
+# Application Info
+info:
+  name: ${project.artifactId}
+  description: ${project.description}
+  version: ${project.version}
+
+server:
+  port: 8500
+  context-path: /${project.artifactId}
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/lodqadb
+    user: lodqa
+    password: lodqapass
+
+endpoints:
+  enabled: false
+  sensitive: true
+  configprops.enabled: true
+  info.enabled: true
+  health.enabled: true
+  metrics.enabled: true

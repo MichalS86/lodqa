@@ -1,0 +1,42 @@
+#################
+## Java
+#################
+*.class
+*.jar
+*.war
+*.ear
+
+#################
+## Eclipse
+#################
+
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.settings/
+.loadpath
+
+# Build results
+out/
+
+#################
+## IntelliJ
+#################
+
+.idea/
+*.iml
+
+# Build results
+target/
+
+#Merge temp files
+*.orig
+db/
+
